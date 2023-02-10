@@ -21,4 +21,4 @@ dosc (http://localhost:8888/docs#/).
 
 
 
-![image](https://github.com/uchpython12/FastAPI/blob/main/%E5%8D%9A%E5%AE%A2%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3_Restful%E9%A3%8E%E6%A0%BCapi%E8%AE%BE%E8%AE%A1/fastAPI.png)
+![image](https://github.com/uchpython12/FastAPI/blob/main/%E5%8D%9A%E5%AE%A2%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3_Restful%E9%A3%8E%E6%A0%BCapi%E8%AE%BE%E8%AE%A1/fastapi_img.png)
