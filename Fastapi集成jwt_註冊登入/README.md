@@ -25,15 +25,17 @@ create database db charset utf8;
 use db;
 ```
 
--- 在db中新建一张 users表 
+-- 在db中新建一张 jwt_users表 
 
 ```
-CREATE TABLE `users` (
+CREATE TABLE `jwt_users` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
-    `name` varchar(255) COLLATE utf8_bin NOT NULL,
-    `password` varchar(255) COLLATE utf8_bin NOT NULL,
+    `username` varchar(255) NOT NULL,
+    `password` varchar(255) NOT NULL,
+    `email` varchar(255) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=1 ;
+
 ```
 
 running locally! Your app should now be running on [localhost:8888](http://localhost:8888/) .
@@ -43,4 +45,4 @@ dosc (http://localhost:8888/docs#/).
 
 
 
-![image](https://github.com/uchpython12/FastAPI/blob/main/FastAPI%E9%9B%86%E6%88%90SQLAlchemy%E5%A2%9E%E5%88%AA%E6%94%B9%E6%9F%A5/FastAPI_SQLAlchemy.png)
+![image](https://github.com/uchpython12/FastAPI/blob/main/Fastapi%E9%9B%86%E6%88%90jwt_%E8%A8%BB%E5%86%8A%E7%99%BB%E5%85%A5/FastAPI_Login_register.png)
