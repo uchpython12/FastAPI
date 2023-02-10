@@ -14,11 +14,21 @@ git clone https://github.com/uchpython12/FastAPI
 python /main.py
 ```
 
-```
+mysql -uroot -p12345
+
 -- 新建一个数据库，名字是 db
+```
 create database db charset utf8;
--- 使用 db use db;
--- 在db中新建一张 users表 CREATE TABLE `users` (
+```
+-- 使用 db 
+```
+use db;
+```
+
+-- 在db中新建一张 users表 
+
+```
+CREATE TABLE `users` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `name` varchar(255) COLLATE utf8_bin NOT NULL,
     `password` varchar(255) COLLATE utf8_bin NOT NULL,
