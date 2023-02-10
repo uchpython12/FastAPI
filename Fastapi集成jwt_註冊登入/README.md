@@ -45,4 +45,4 @@ dosc (http://localhost:8888/docs#/).
 
 
 
-![image](https://github.com/uchpython12/FastAPI/blob/main/Fastapi%E9%9B%86%E6%88%90jwt_%E8%A8%BB%E5%86%8A%E7%99%BB%E5%85%A5/FastAPI_Login_register.png)
+![image](https://github.com/uchpython12/FastAPI/blob/main/Fastapi%E9%9B%86%E6%88%90jwt_%E8%A8%BB%E5%86%8A%E7%99%BB%E5%85%A5/FastAPI_Login_register_jwt.png)
