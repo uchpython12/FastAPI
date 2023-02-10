@@ -19,10 +19,10 @@ secrey_key = "2123jdsjl@:Jdj1"
 
 templates = Jinja2Templates(directory="templates")
 
-@app.get("/login", response_class=HTMLResponse)
+@app.get("/login", response_class=HTMLResponse,tags=["頁面響應"])
 def read_item(request: Request):
     return templates.TemplateResponse("login.html", {"request": request})
-@app.get("/register", response_class=HTMLResponse)
+@app.get("/register", response_class=HTMLResponse,tags=["頁面響應"])
 def read_item(request: Request):
     return templates.TemplateResponse("register.html", {"request": request})
 
