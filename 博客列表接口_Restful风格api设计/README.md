@@ -8,9 +8,13 @@
 
 ```
 git clone https://github.com/uchpython12/FastAPI
+```
 
 ```
 python /main.py
 ```
 
-running locally! Your app should now be running on [localhost:8888](http://localhost:8888/) dosc (http://localhost:8888/docs#/).
+running locally! Your app should now be running on [localhost:8888](http://localhost:8888/) .
+
+
+dosc (http://localhost:8888/docs#/).
