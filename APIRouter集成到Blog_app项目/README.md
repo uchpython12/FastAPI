@@ -43,4 +43,4 @@ dosc (http://localhost:8888/docs#/).
 
 
 
-![image](https://github.com/uchpython12/FastAPI/blob/main/FastAPI%E9%9B%86%E6%88%90SQLAlchemy%E5%A2%9E%E5%88%AA%E6%94%B9%E6%9F%A5/FastAPI_SQLAlchemy.png)
+![image](https://github.com/uchpython12/FastAPI/blob/main/APIRouter%E9%9B%86%E6%88%90%E5%88%B0Blog_app%E9%A1%B9%E7%9B%AE/Fastapi_router_img.png)
